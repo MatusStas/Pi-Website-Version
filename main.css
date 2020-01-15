@@ -1,0 +1,6 @@
+canvas {
+    background: #f0f0f0;
+    /*centering*/
+    display: block;
+    margin: 0 auto;
+}
