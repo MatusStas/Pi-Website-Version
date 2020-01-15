@@ -4,3 +4,15 @@ canvas {
     display: block;
     margin: 0 auto;
 }
+
+#inside {
+	text-align: center;
+}
+
+#outside {
+	text-align: center;
+}
+
+#pi {
+	text-align: center;
+}
