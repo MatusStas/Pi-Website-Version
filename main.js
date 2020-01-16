@@ -20,9 +20,7 @@ function drawPoint(ctx) {
 				inside++;
 			}
 
-			var pi = 8*(inside/(inside+outside));
-			var text = document.getElementById("inside").innerHTML = "inside: " + inside.toString(); 
-			var text = document.getElementById("outside").innerHTML = "outside: " + outside.toString(); 
+			var pi = (8*(inside/(inside+outside))).toFixed(7);
 			var text = document.getElementById("pi").innerHTML = pi.toString(); 
 
 		}, 1);
